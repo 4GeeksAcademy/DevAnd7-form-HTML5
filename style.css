@@ -1,0 +1,8 @@
+body{
+    background-color: black;
+}
+
+.bg-danger-rgb{
+    color: maroon;
+    background-color: rgb(245, 173, 173);
+}
