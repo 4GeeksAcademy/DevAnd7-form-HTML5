@@ -38,15 +38,15 @@
 
                 <div class="col-sm-6">
                     <label for="numCard" class="form-label"><b>Card #</b></label>
-                    <input type="text" class="form-control" id="numCard" placeholder="XXXXXXXXXX">
+                    <input type="text" class="form-control" name="numCard" id="numCard" placeholder="XXXXXXXXXX" required>
                 </div>
                 <div class="col-sm-3">
                     <label for="numCvc" class="form-label"><b>CVC #</b></label>
-                    <input type="text" class="form-control" id="numCvc" placeholder="0000">
+                    <input type="text" class="form-control" name="numCvc" id="numCvc" placeholder="0000" required>
                 </div>
                 <div class="col-sm-3">
                     <label for="amound" class="form-label"><b>Amount $</b></label>
-                    <input type="email" class="form-control" id="amound" placeholder="Amount">
+                    <input type="number" class="form-control" id="amound" placeholder="Amount">
                 </div>
             </div>
 
@@ -55,11 +55,11 @@
 
                 <div class="col-sm-6">
                     <label for="firstName" class="form-label"><b>First Name</b></label>
-                    <input type="text" class="form-control" id="firstName">
+                    <input type="text" class="form-control" id="firstName" required>
                 </div>
                 <div class="col-sm-6">
                     <label for="lastName" class="form-label"><b>Lastname</b></label>
-                    <input type="text" class="form-control" id="lastName">
+                    <input type="text" class="form-control" id="lastName" required>
                 </div>
             </div>
 
@@ -81,7 +81,7 @@
                 </div>
                 <div class="col-sm-3">
                     <label for="numPostal" class="form-label"><b>Postal code</b></label>
-                    <input type="email" class="form-control" id="numPostal">
+                    <input type="number" class="form-control" id="numPostal" required>
                 </div>
             </div>
 
@@ -90,34 +90,34 @@
                 <div class="col-sm-6">
                     <label for="accept" class="form-label"><b>We accept:</b></label>
 
-                    <div class="col bg-secondary p-3 border rounded">
+                    <div class="bg-secondary p-3 border rounded d-flex flex-wrap justify-content-between gap-3 me-auto" style="max-width: 400px;">
 
-                        <div class="form-check form-check-inline">
+                        <div class="form-check form-check-inline d-flex align-items-center gap-2">
                             <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
                                 value="option1">
                             <label class="form-check-label" for="inlineRadio1">
-                                <i class="fa-brands fa-cc-mastercard fa-lg" style="color: #ffffff;"></i>
+                                <i class="fa-brands fa-cc-mastercard fa-xl" style="color: #ffffff;"></i>
                             </label>
                         </div>
-                        <div class="form-check form-check-inline">
+                        <div class="form-check form-check-inline d-flex align-items-center gap-2">
                             <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
                                 value="option2">
                             <label class="form-check-label" for="inlineRadio2">
-                                <i class="fa-brands fa-cc-visa fa-lg" style="color: #ffffff;"></i>
+                                <i class="fa-brands fa-cc-visa fa-xl" style="color: #ffffff;"></i>
                             </label>
                         </div>
-                        <div class="form-check form-check-inline">
+                        <div class="form-check form-check-inline d-flex align-items-center gap-2">
                             <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
                                 value="option3">
                             <label class="form-check-label" for="inlineRadio3">
-                                <i class="fab fa-cc-diners-club fa-lg" style="color: #ffffff;"></i>
+                                <i class="fab fa-cc-diners-club fa-xl" style="color: #ffffff;"></i>
                             </label>
                         </div>
-                        <div class="form-check form-check-inline">
+                        <div class="form-check form-check-inline d-flex align-items-center gap-2">
                             <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4"
                                 value="option4">
                             <label class="form-check-label" for="inlineRadio4">
-                                <i class="fab fa-cc-amex fa-lg" style="color: #ffffff;"></i>
+                                <i class="fab fa-cc-amex fa-xl" style="color: #ffffff;"></i>
                             </label>
                         </div>
 
